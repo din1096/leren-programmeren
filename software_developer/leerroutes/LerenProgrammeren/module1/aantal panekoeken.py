@@ -1,7 +1,6 @@
 import math
 
 
-
 bloem = 500/20
 melk = 800/20
 eieren = 3/20

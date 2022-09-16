@@ -1,5 +1,4 @@
 
-import math
 # je vraagt naar de leeftijd
 # alls je drie jaar zo oud bent was je ... geweest
 

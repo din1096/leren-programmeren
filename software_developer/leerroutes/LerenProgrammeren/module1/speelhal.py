@@ -1,8 +1,7 @@
-import math 
 
-toegangsticket = 7.45 
-personen = 4
-vipgameseat = 0.37 
-tijd = 45
-print('Dit geweldige dagje-uit met 4 mensen in de Speelhal met 45 minuten VR kost je maar 44.44 euro')
-print(f"dan moet je in totaal voor de toeganstickest {toegangsticket * personen} en je moet voor je vipgameseat {vipgameseat * tijd} betalen") 
+aantal_toegangsticket = int(input('hoeveel tickets wil je'))
+toegangsticket_prijs  = (aantal_toegangsticket * 7.45 )
+aantal_gameseat = int(input('hoeveel lang ga je er in '))
+gameseat_prijs = (aantal_gameseat * 0.37 )
+
+print(f'dit geweldige dagje-uit met {aantal_toegangsticket} mensen in de speelhal met {aantal_gameseat} minuten vr kost je maar {toegangsticket_prijs + gameseat_prijs} euro')

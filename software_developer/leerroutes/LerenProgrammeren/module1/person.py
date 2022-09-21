@@ -1,0 +1,11 @@
+Na = (input('wat is je naam'))
+Ad = (input('wat is je adres'))
+Pc = (input('wat is je postcode'))
+Wp = (input('wat is je Woonplaats'))
+
+print('---------------------------------------------------------------------------------------------------')
+print('|Naam :', Na)
+print('|Adress :', Ad)
+print('|Postcode :', Pc)
+print('|Woonplaats :', Wp)
+print('--------------------------------------------------------------------------------------------------')

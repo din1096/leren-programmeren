@@ -15,3 +15,5 @@ elif verschil < 50 :
     
 elif prijs_iphone == prijs_iphone :
     print(f'het advies is dus om de iphone te kopen  deze is namelijk {prijs_samsung - prijs_iphone} goedkoper dan de samsung')    
+
+    

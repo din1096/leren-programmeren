@@ -11,5 +11,6 @@ kortingsbonnen_prijs = (aantal_kortingsbonnen * 0.50 )
 
 print(f'{croissantjes_prijs + stokbrood_prijs - kortingsbonnen_prijs}')
 
-
-
+croissantjes_prijs = round (croissantjes_prijs, 2);
+stokbrood_prijs = round (stokbrood_prijs, 2);  
+kortingsbonnen_prijs = round (kortingsbonnen_prijs, 2);

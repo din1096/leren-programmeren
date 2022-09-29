@@ -3,18 +3,19 @@ b = int(input('voer een getal in'))
 
 
 if a > b:
-   max = a
-   print(f'a is het grootste getal is {max}')
-
+   Max = a
+   print(f'a is het grootste getal is {Max}')
 
 elif a < b:
-   min = a
-   print(f'a is het kleinste getal is {min}')
-
+   Min = a
+   print(f'a is het kleinste getal is {Min}')
 
 else:
    print('a en b zijn even groot')
    
-print(f'het minimun is {min}')
-print(f'het maximum is {max}')
-  
+max = int(input('voer een getal in'))
+Min =int(input('voer een getal in'))
+
+if max > min:
+   print(f'het maximum is{max}')
+   print(f'het minimum is {min}')

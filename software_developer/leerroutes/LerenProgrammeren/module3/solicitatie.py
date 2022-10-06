@@ -1,5 +1,3 @@
-snor_lengte = int()
-haar_lengte = int()
 print('---------------------------------------------------------------')
 print('sollicitatieformulier circusdirecteur voor Circus HotelDeBotel')
 print('--------------------------------------------------------------')

@@ -12,10 +12,10 @@ elif a < b:
 
 else:
    print('a en b zijn even groot')
-   
-max = int(input('voer een getal in'))
-Min =int(input('voer een getal in'))
+  
+ma = int(input('voer een getal in'))
+Mi =int(input('voer een getal in'))
 
-if max > min:
-   print(f'het maximum is{max}')
-   print(f'het minimum is {min}')
+if ma > Mi:
+   print(f'het maximum is{ma}')
+   print(f'het minimum is {Mi}')

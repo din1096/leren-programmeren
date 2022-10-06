@@ -29,7 +29,7 @@ dieren_dressuur = int(input('hoeveel jaren ervaring heb je in dieren dressuur in
 jongleren = int(input('hoeveel jaren ervaring heb je met jongleren in hele jaren'))
 acrobatiek = int(input('hoeveel jaren ervaring heb je met acrobatiek in hele jaren'))
 
-if mbo == 'ja' and rijbewijs == 'ja' and hoed == 'ja' and snor_lengte > 10 or haar_lengte > 20 and lichaam_lengte > 150 and lichaam_lengte < 220 and gewicht > 90 and gewicht < 120 and certificaat == 'ja' and dieren_dressuur > 4 or jongleren > 5 or acrobatiek > 3:
+if (snor_lengte > 10 or haar_lengte > 20) and mbo == 'ja' and rijbewijs == 'ja' and hoed == 'ja' and lichaam_lengte > 150 and lichaam_lengte < 220 and gewicht > 90   and gewicht < 120 and certificaat == 'ja' and (dieren_dressuur > 4 or jongleren > 5 or acrobatiek > 3):
     print('u voldoet aan alle criteria we hopen u te zien in sollecitatie gesprek')
 
 else:

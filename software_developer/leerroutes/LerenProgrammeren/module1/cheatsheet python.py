@@ -1,4 +1,4 @@
-#variable iets
+#variable iets wat je een waarde geeft
 
 #float
 
@@ -7,7 +7,7 @@
 #string 
 
 # zin word
-
+ #?/n"
 # if
 
 #variable = round {variable, 2};
@@ -32,3 +32,8 @@
 #Greater than or equal to ( >= )
 #Equal to ( == )
 #Not equal to ( != )
+
+#acculators
+#{}
+#bracket []
+# haakjes ()

@@ -1,6 +1,5 @@
-
 print('---------------------------------------------------------------------------------------------------------')
-print('                  sollicitatieformulier circusdirecteur voor Circus HotelDeBotel                         ')
+print('                  sollicitatieformulier circusdirecteur voor Circus Hotel De Botel                         ')
 print('---------------------------------------------------------------------------------------------------------')
 print('er word uw een aantal vragen gesteld als u voor alle creteria in aanmerking komt voor een serieus gesprek')
 print('--------------------------------------------------------------------------------------------------------')

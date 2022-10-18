@@ -5,11 +5,15 @@ try:
     pizza_large = int(input('hoeveel grote pizza wil je'))
 except:
     if ValueError:
-        print('fout')
+        print('voer een heel getal in')
         exit()
-pizza_prijs_s = pizza_small * 7.77
-pizza_prijs_m = pizza_medium * 10.80
-pizza_prijs_l = pizza_large * 12.99
+
+prijs_s = 7,77
+prijs_m = 10,80
+prijs_l = 12,99
+pizza_prijs_s = pizza_small * prijs_s
+pizza_prijs_m = pizza_medium * prijs_m
+pizza_prijs_l = pizza_large * prijs_l
 totaal_prijs = pizza_prijs_s + pizza_prijs_m + pizza_prijs_l
 pizza_totaal = pizza_small + pizza_medium + pizza_large
 

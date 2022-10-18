@@ -1,9 +1,12 @@
 # dinho hooi pizza calculator
-
-pizza_small = int(input('hoeveel kleine pizza wil je'))
-pizza_medium = int(input('hoeveel medium pizza wil je'))
-pizza_large = int(input('hoeveel grote pizza wil je'))
-
+try:
+    pizza_small = int(input('hoeveel kleine pizza wil je'))
+    pizza_medium = int(input('hoeveel medium pizza wil je'))
+    pizza_large = int(input('hoeveel grote pizza wil je'))
+except:
+    if ValueError:
+        print('fout')
+        exit()
 pizza_prijs_s = pizza_small * 7.77
 pizza_prijs_m = pizza_medium * 10.80
 pizza_prijs_l = pizza_large * 12.99

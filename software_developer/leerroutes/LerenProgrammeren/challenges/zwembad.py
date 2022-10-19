@@ -5,6 +5,7 @@ afvoer_kuub = 32.5
 meter_lang = int(input('hoe lang is het in meter'))
 meter_breed = int(input('hoe breed is het in meter'))
 meter_diep = float(input('hoe diep is het in meter'))
+meter_m2 = meter_lang * meter_breed 
 afstand = 60
 grond = meter_lang * meter_breed * meter_diep 
 
@@ -30,8 +31,14 @@ elif afstand >= 50 and grond >= 20:
 else:
     print('foutje')
 
+if grond < 20:
+    meter_m2 = 250
+    meerprijs_rood = 25 * meter_m2
+
+
+
 vorrijk_prijs = round(vaste_prijs + vorrij_prijs_km * grond,2)
-totaal_prijs = round(uitgraven_prijs + afvoeren_prijs + vorrijk_prijs,2) 
+totaal_prijs = round(uitgraven_prijs + afvoeren_prijs + vorrijk_prijs,2)
 
 print(f'''
 uitgrafkosten:       {uitgraven_prijs:.2f} euro

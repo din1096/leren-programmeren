@@ -1,5 +1,3 @@
-from msilib.schema import Error
-
 
 print('---------------------------------------------------------------------------------------------------------')
 print('                  sollicitatieformulier circusdirecteur voor Circus Hotel De Botel                         ')

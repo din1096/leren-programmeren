@@ -1,12 +1,19 @@
 # dinho hooi pizza calculator
+from distutils.log import error
+
 try:
     pizza_small = int(input('hoeveel kleine pizza wil je'))
+except:
+    print('vul een heel getal')
+
+try:
     pizza_medium = int(input('hoeveel medium pizza wil je'))
+except:
+    print('vul een heel getal in')
+try:
     pizza_large = int(input('hoeveel grote pizza wil je'))
 except:
-    if ValueError:
-        print('voer een heel getal in')
-        exit()
+    print('vul een heel getal in')
 
 prijs_s = 7,77
 prijs_m = 10,80

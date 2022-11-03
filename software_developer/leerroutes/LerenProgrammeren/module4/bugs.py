@@ -31,7 +31,10 @@ try:
     number = int(input(f'En weet jij wat {num1} + {num2} is? ')) 
 except:
  print('Nee dat klopt niet {}'.format(name))
-if int(number == num1 + num2):
+if number == num1 + num2:
  print('Dat is juist')
+
+elif number != num1 + num1:
+  print('dat is niet juist')
 else:
     print('Dat is geen nummer!')

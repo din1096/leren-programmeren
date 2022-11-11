@@ -29,7 +29,7 @@ lichaam_lengte = int(input('wat is uw lengte in hele cm'))
 gewicht = int(input('wat is uw lichaamsgewicht in hele kilogram'))
 certificaat = input('heb je een certificaat Overleven met gevaarlijk personeel ja/nee')
 if certificaat == 'ja':
-    raise NameError ('mensen met certificaat gevaarlijk personeel worden niet toegenomen')
+    raise NameError ('mensen met certificaat gevaarlijk personeel worden niet toegestaan')
 dieren_dressuur = int(input('hoeveel jaren ervaring heb je in dieren dressuur in hele jaren'))
 jongleren = int(input('hoeveel jaren ervaring heb je met jongleren in hele jaren'))
 acrobatiek = int(input('hoeveel jaren ervaring heb je met acrobatiek in hele jaren'))

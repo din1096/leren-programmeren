@@ -18,7 +18,7 @@ if gender == 'man':
     snor = input('heeft u een snor ja/nee?')
     if snor == 'ja':
         snor_lengte = int(input('wat is de lengte van de snor in hele cm'))
-        pass
+
 
 elif gender == 'vrouw':
     haar = input('heeft u rood krullig haar ja/nee')

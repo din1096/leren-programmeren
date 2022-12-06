@@ -10,9 +10,9 @@ richtings = ("links","rechts","beneden")
 print('je bent in een kamer en ziet meerdere kanten waar je heen kunt.Waar wil je heen?')
 Input = ""
 while Input not in richtings:
-    print('opties rechts/links/beneden')
+    print('opties links/rechts/beneden')
     Input = input()
-    if Input == 'rechts':
+    if Input == 'links':
         print('je komt in een kamer terecht en ziet een deur je hoort een stem hij zegt dat je een raadsel moet oplossen anders ga je dood')
         print('dit is het raadsel.Ik been een deel van je ik besta alleen als er licht is maar verdwijn als er licht op me komt. Wat ben ik?')
         raadsel = input('wat is je antwoord')
@@ -30,3 +30,8 @@ while Input not in richtings:
         elif sleutel == 'pak de sleutel niet':
             print('je bent terug in de beginkamer waar wil je heen?')
             print('opties links/beneden')
+            input()
+    elif Input == 'beneden':
+        print('je komt in een kamer en je ziet een groot wapenrek met verschillende wapens wat ga je doen')
+        print('opties pak een wapen/pak geen wapen')
+        input()

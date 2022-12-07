@@ -8,9 +8,6 @@ elif number_2 > number_1:
 else:
     print('ze zijn even groot')
 
-
-
-
 getallen = [5,12,19,27,3]
 for element in getallen:
     print(getallen)

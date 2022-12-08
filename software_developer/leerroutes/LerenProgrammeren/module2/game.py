@@ -91,6 +91,7 @@ if richting == 'links':
                 else:
                     print('het antwoord is fout je ziet de deur dichtslaan en ziet groene gas de gamer in komen je word vergiftiged')
                     print('je bent dood')
+
 elif richting == 'beneden':
     print('je komt in een kamer en je ziet een groot wapenrek met verschillende wapens wat ga je doen')
     print('opties pak een wapen')
@@ -131,6 +132,7 @@ elif richting == 'beneden':
                         print(f'het is je gelukt goed gedaan {naam}')
                     else:
                         print('Je hebt het fout lees je de kamer begint te trillen en de muren komen naar elkaar toe je bent dood')
+                        
 elif richting == 'rechts':
     print('je loopt rechts en komt een grote kamer met meerdere pilaars binnen en ziet een group zombies')
     print('wat ga je doen?')

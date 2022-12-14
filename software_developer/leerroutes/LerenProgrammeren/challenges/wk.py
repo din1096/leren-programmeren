@@ -78,6 +78,8 @@ else:
 
 doelsaldo_land1 = land_1_doelpunten - land_3_doelpunten
 doelsaldo_land3 = land_1_doelpunten - land_3_doelpunten
+
 print(f'{land_1} score uit alle wedstrijden {score_land1} doelpunten voor {voor_land1}doelpunten tegen {tegen_land1}')
 print(f'{land_2} score uit alle wedstrijden {score_land2} doelpunten voor {voor_land2}doelpunten tegen {tegen_land2}')
 print(f'{land_3} score uit alle wedstrijden {score_land3} doelpunten voor {voor_land3}doelpunten tegen {tegen_land3}')
+

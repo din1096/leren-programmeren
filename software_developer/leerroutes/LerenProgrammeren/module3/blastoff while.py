@@ -4,4 +4,3 @@ while i > 0:
     i = i - 1
     if i == 0:
         print('klaar voor de lancering')
-

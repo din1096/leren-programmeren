@@ -6,4 +6,4 @@ while True:
         continue
     if vraag == 'quit':
         print('')
-        break
+        

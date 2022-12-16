@@ -1,7 +1,9 @@
-i = 1
-while i < 13:
-    print(f'{i}am')
-    i = i + 1
-    i = i - 1
-else:
-     print(f'{i}pm')
+am = 1
+pm = 1
+while True:
+    if am < 13:
+        print(f'{am} am')
+        am = am + 1
+    elif pm < 13:
+        print(f'{pm} pm')
+        pm = pm + 1

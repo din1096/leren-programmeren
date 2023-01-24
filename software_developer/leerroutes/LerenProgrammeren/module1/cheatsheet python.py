@@ -43,3 +43,5 @@
 
 #tuple ("ma", "di", "wo", "do", "vr", "za", "zo"): niet weisbaar
 #met pop
+
+#def toont aan define met def kan je je eigen funtie maken er gaat wat in en komt wat uit

@@ -12,7 +12,3 @@ for x in range(hoeveel):
         x = zak_mnm.get(MnM[verschil]) +1
         zak_mnm.update({MnM[verschil]:x})
 print(zak_mnm)
-
-
-
-

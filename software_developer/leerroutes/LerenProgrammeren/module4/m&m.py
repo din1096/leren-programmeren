@@ -1,5 +1,5 @@
 import random   
-MnM = ("oranje mnm","blauw mnm","groen mnm","bruin mnm")
+MnM = ("oranje m&m","blauw m&m","groen m&m","bruin m&m")
 vraag = int(input('hoeveel m&m moeten toegevoeged worden aan de zak'))
 zak_mnm = []
 

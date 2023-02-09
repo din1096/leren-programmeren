@@ -7,5 +7,5 @@ while lijst:
     boodschappen_lijst.update({boodschappen : hoeveel})
     if toevoegen == 'nee':
         lijst == False
-    for x in range(len(boodschappen_lijst)):
-        print(x[boodschappen_lijst])
+        for x in range(len(boodschappen_lijst)):
+            print(x[boodschappen_lijst])

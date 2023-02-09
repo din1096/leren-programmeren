@@ -16,3 +16,5 @@ for x in range(len(dagen_van_week)-3,-1,-1):
 print('\n')
 for x in range(len(dagen_van_week)-8,-3,-1):
   print(dagen_van_week[x])
+
+

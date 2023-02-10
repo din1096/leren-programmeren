@@ -9,7 +9,7 @@ for vorm in vormen:
         deck.append(nieuwe_kaarten)
 random.shuffle(deck)
 for x in range(1,8):
-
+    
     shuffle = random.choice(deck)
     deck.remove(shuffle)
     print(shuffle)

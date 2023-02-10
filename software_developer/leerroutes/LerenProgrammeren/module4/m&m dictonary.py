@@ -8,7 +8,5 @@ for x in range(hoeveel):
     randomkleur = MnM[verschil]
     if MnM[verschil] not in zak_mnm:
         zak_mnm.update({randomkleur : 1})
-    else:
-        x = zak_mnm.get(MnM[verschil]) +1
-        zak_mnm.update({MnM[verschil]:x})
+    
 print(zak_mnm)

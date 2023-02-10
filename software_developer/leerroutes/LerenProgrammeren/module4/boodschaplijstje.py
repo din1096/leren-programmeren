@@ -2,10 +2,17 @@ boodschappen_lijst = {}
 lijst = True
 while lijst:
     boodschappen = input('wat wil je als boodschappen').lower()
-    hoeveel = input('hoeveel wil je ervan')
+    hoeveel = int(input('hoeveel wil je ervan'))
     toevoegen = input('wil je nog wat toevoegen')
-    boodschappen_lijst.update({boodschappen : hoeveel})
+    if boodschappen not in boodschappen_lijst:
+        boodschappen_lijst.update({boodschappen : hoeveel})      
+    elif boodschappen in boodschappen_lijst:
+        boodschappen_lijst[boodschappen] += hoeveel
+
     if toevoegen == 'nee':
-        lijst == False
-        for x in range(len(boodschappen_lijst)):
-            print(x[boodschappen_lijst])
+        lijst = False
+
+
+for x, y in boodschappen_lijst.items():
+  print(x, y)
+

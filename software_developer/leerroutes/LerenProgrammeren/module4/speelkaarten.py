@@ -5,12 +5,14 @@ deck = ['joker','joker']
 
 for vorm in vormen:
     for kaart in kaarten:
-        nieuwe_kaarten =vorm + kaart
+        nieuwe_kaarten =(f'{vorm} {kaart}')
         deck.append(nieuwe_kaarten)
+
 random.shuffle(deck)
-for x in range(1,8):
-    
-    shuffle = random.choice(deck)
-    deck.remove(shuffle)
-    print(shuffle)
-print(f'deck (47 kaarten):{deck}')
+print(deck)
+for i in range(len(deck)):
+  print(f'{deck[i]}')
+  if i == 6:
+    del deck[0:6]
+    print(deck)
+

@@ -1,13 +1,12 @@
-def bereken_poten():
-    girrafen_aantal = int(input('hoeveel girrafen zijn er'))
-    girrafen_poten = 4
-    struisvogels_aantal = int(input('hoeveel struisvogels zijn er'))
-    struisvogels_poten = 2
-    zebra_aantal = int(input('hoeveel zebras zijn er'))
-    zebra_poten = 4
-    girrafen_antwoord = girrafen_aantal * girrafen_poten
-    struisvogel_antwoord = struisvogels_aantal * struisvogels_poten
-    zebra_antwoord = zebra_aantal * zebra_poten
-    berekening = print(f'{zebra_antwoord + girrafen_antwoord + struisvogel_antwoord} poten')
+girrafen = int(input('hoeveel girrafen zijn er'))
+struisvogels= int(input('hoeveel girrafen zijn er'))
+zebra = int(input('hoeveel zebras zijn er'))
+girrafen_poten = 0
+struisvogels_poten = 0
+zebra_poten = 0
 
-bereken_poten()
+def bereken_poten(girrafen , struisvogel, zebra):
+    berekening = print(f'{girrafen * girrafen_poten + struisvogels * struisvogels_poten + zebra * zebra_poten} poten')
+    return berekening
+
+print(bereken_poten(4,2,4))

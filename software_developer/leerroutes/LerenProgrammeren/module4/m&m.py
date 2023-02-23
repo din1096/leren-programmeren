@@ -8,3 +8,4 @@ for x in range(vraag):
     zak_mnm.append(zak)
 
 print(zak_mnm)
+

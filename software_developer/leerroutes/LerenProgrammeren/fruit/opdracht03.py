@@ -1,3 +1,4 @@
 from fruitmand import fruitmand
-for x in range(1,8):
-    print(fruitmand[0]['name'])
+for index in range(len(fruitmand)):
+    for key, value in fruitmand[index].items():
+        print(key,value)

@@ -1,7 +1,7 @@
 from fruitmand import fruitmand
 fruitmand.append({
 'name': 'watermeloen', 
-'weight': 1300, 
+'weight': 1000, 
 'color': 'lime', 
 'round' : True 
 })

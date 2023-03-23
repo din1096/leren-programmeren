@@ -13,6 +13,7 @@ print(deck)
 for i in range(len(deck)):
   print(f'{deck[i]}')
   if i == 6:
-    del deck[0:6]
-    print(deck)
+    del deck[0:7]
+    break
 
+print(deck)

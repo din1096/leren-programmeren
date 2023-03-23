@@ -1,7 +1,7 @@
 from fruitmand import fruitmand
 list = []
 max_lengte= 0
-for index in range(0,len(fruitmand)): #index: vraagt de adres van een item in de list
+for index in range(0,len(fruitmand)):
     lengte_naam= len(fruitmand[index]['name'])
     if lengte_naam > max_lengte:
         max_lengte = lengte_naam

@@ -2,11 +2,11 @@ from fruitmand import fruitmand
 fruitmand.append({
 'name': 'watermeloen', 
 'weight': 1000, 
-'color': 'lime', 
+'color': 'green', 
 'round' : True 
 })
 totaal = 0
-for fruit in fruitmand:
-    totaal += fruit['weight']
+for x in fruitmand:
+    totaal += x['weight']
 print(totaal)
 

@@ -1,8 +1,8 @@
 
 import random
-namen = [] #lege list voor namen
+namen = []
 lootjes = {}
-while True: #loop tot dat de gebruiker klaar is met namen
+while True: 
     naam = input("Wat zijn de namen van de spelers?  ").lower()
     if naam in namen:
         print("dit heeft u al gekozen")
@@ -23,4 +23,4 @@ while shuffling:
 for i in range(len(namen)):
     lootjes.update({namen[i]: namen_shuffle[i]})
 
-print(lootjes) #print die namen maar !!
+print(lootjes) 

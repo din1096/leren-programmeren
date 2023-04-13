@@ -1,14 +1,10 @@
 cijfer = int(input('type een cijfer in'))
 def hello(cijfer):
-    i = 1
-    while(i < cijfer):
-        print(f"hello from funtion town{i}!")
-        i +=1
-        if i > cijfer:
+    x = 1
+    while(x < cijfer):
+        print(f"hello from funtion town{x}!")
+        x += 1
+        if x > cijfer:
             break
             
-
-
-
-
 hello(cijfer)

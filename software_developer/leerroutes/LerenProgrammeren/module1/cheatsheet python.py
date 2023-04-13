@@ -45,13 +45,3 @@
 #met pop
 
 #def toont aan define met def kan je je eigen funtie maken er gaat wat in en komt wat uit
-
-        for kleur in range(1,8):
-        random_1 = random.choice(vormen)
-        random_2 = random.choice(kaarten)
-        print(random_1,random_2)
-
-for kleur in range(1,48):
-    random_1 = random.choice(vormen)
-    random_2 = random.choice(kaarten)
-    print(f'deck {rand

@@ -5,5 +5,4 @@ def tafel(getal):
         som = getal * x
         print(f'{x} x {getal} = {som}')
 
-
 tafel(getal)

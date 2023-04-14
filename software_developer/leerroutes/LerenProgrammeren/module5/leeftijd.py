@@ -8,4 +8,7 @@ def leeftijd():
             lijst_namen.update({name : age})
         elif name in lijst_namen:
             print('dit heb je al gekozen')
-
+                                             
+                                    
+     
+                                   

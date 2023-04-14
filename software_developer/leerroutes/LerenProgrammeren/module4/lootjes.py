@@ -1,4 +1,3 @@
-
 import random
 namen = []
 lootjes = {}
@@ -19,7 +18,7 @@ while shuffling:
     for i in range(len(namen)):
         if namen_shuffle[i] == namen[i]:
             shuffling = True
-
+            
 for i in range(len(namen)):
     lootjes.update({namen[i]: namen_shuffle[i]})
 

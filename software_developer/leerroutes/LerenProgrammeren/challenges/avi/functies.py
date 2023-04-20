@@ -17,7 +17,6 @@ als je de reacties van je vrienden en familie ziet, als je ze verrast met je eig
 ALLOWED_IN_WORD = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-"
 
 # depending on the type of text you wish you get an easy, difficult or text from file.
-choice = input('welke tekst wil je easy,difficult of text from file')
 def getText(choice: str) -> str:
     if choice == 'easy':
         return EASY_TEXT
@@ -32,16 +31,34 @@ def getFileContentAsString(textFile: str) -> str:
     return content
 
 # opdracht 1
+character = input('welke text wil je')
 def getNumberOfCharacters(text: str) -> int:
-    characters = 0
-    for i in range(len(choice)):
-        if i in ALLOWED_IN_WORD:
-            characters += 1
-    return characters
-getNumberOfCharacters(choice)
+    ALLOWED_IN_WORD = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-"
+    counter = 0
+    if text == 'easy':
+        text = EASY_TEXT
+    elif text == 'difficult':
+        text = DIFFICULT_TEXT
+    for x in text:
+        if x in ALLOWED_IN_WORD:
+            counter += 1
+    print(counter)
+
+getNumberOfCharacters(character)
 # opdracht 2
-def getNumberOfSentences(text: str) -> int:
-    return 0
+zinnen = input('welke text wil je')
+def getNumberOfSentences(zinnen: str) -> int:
+    zin = 0
+    if zinnen == 'easy':
+        zinnen = EASY_TEXT
+    elif zinnen == 'difficult':
+        zinnen = DIFFICULT_TEXT
+    for x in zinnen:
+            if x == '!':
+                zin += 1
+                print(zin)
+
+getNumberOfSentences(zinnen)
 
 # opdracht 3
 def getNumberOfWords(text: str) -> int:

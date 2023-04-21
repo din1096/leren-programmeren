@@ -6,20 +6,21 @@ while True:
     if naam in namen:
         print("dit heeft u al gekozen")
     else:
-        namen.append(naam) #namen toevoegen aan list
+        namen.append(naam) 
     if len(namen) >= 3:
-        vraag = input("wilt u nog een naam invoeren ? ") #vragen of gebruiker meer namen inwilt vullen
+        vraag = input("wilt u nog een naam invoeren ? ") 
         if vraag == "nee":
-            break #ga uit de loop als de gebruiker klaar is met namen
+            break 
 shuffling = True
 while shuffling:
-    namen_shuffle = random.sample(len(namen)) #gebruik maken van random.sample om namen te shuffelen
+    namen_shuffle = random.sample(namen, len(namen)) 
     shuffling = False
     for i in range(len(namen)):
         if namen_shuffle[i] == namen[i]:
             shuffling = True
+        else:
+            lootjes.update({namen[i]: namen_shuffle[i]})
+            shuffling = False
             
-for i in range(len(namen)):
-    lootjes.update({namen[i]: namen_shuffle[i]})
 
 print(lootjes) 

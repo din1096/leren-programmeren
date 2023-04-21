@@ -1,3 +1,4 @@
+from math import ceil
 EASY_TEXT = """Ik hou van programmeren. Programmeren is leuk. 
 Ik kan veel dingen maken met programmeren. Ik kan een website maken. 
 Ik kan een spel maken. Ik kan een chatbot maken. 
@@ -51,8 +52,25 @@ def getNumberOfSentences(text: str) -> int:
 # opdracht 3
 
 def getNumberOfWords(text: str) -> int:
-    return len(text.split())
+    return len(text.split()) 
 
-def avi_score(text: str) -> int:
+def AVI(text: str) -> int:
+    woorden = getNumberOfWords(text)
     zinnen = getNumberOfSentences(text)
-    woorden = getNumberOfCharacters(text)
+    gemilddelde = ceil((woorden + zinnen) / 2)
+
+    if gemilddelde <= 7:
+        score =  5
+    elif gemilddelde == 8:
+        score = 6
+    elif gemilddelde == 10:
+        score = 8
+    elif gemilddelde == 11:
+        score = 11
+    elif gemilddelde == 12:
+        score = 12
+
+    return score
+
+
+

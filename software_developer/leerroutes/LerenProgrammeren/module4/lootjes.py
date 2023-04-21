@@ -13,7 +13,7 @@ while True:
             break #ga uit de loop als de gebruiker klaar is met namen
 shuffling = True
 while shuffling:
-    namen_shuffle = random.sample(namen, len(namen)) #gebruik maken van random.sample om namen te shuffelen
+    namen_shuffle = random.sample(len(namen)) #gebruik maken van random.sample om namen te shuffelen
     shuffling = False
     for i in range(len(namen)):
         if namen_shuffle[i] == namen[i]:

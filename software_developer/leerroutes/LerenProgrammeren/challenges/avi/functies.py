@@ -31,35 +31,28 @@ def getFileContentAsString(textFile: str) -> str:
     return content
 
 # opdracht 1
-character = input('welke text wil je')
+
 def getNumberOfCharacters(text: str) -> int:
-    ALLOWED_IN_WORD = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-"
     counter = 0
-    if text == 'easy':
-        text = EASY_TEXT
-    elif text == 'difficult':
-        text = DIFFICULT_TEXT
     for x in text:
         if x in ALLOWED_IN_WORD:
             counter += 1
-    print(counter)
+    return counter
 
-getNumberOfCharacters(character)
+
+
 # opdracht 2
-zinnen = input('welke text wil je')
-def getNumberOfSentences(zinnen: str) -> int:
-    zin = 0
-    if zinnen == 'easy':
-        zinnen = EASY_TEXT
-    elif zinnen == 'difficult':
-        zinnen = DIFFICULT_TEXT
-    for x in zinnen:
-            if x == '!':
-                zin += 1
-                print(zin)
+def getNumberOfSentences(text: str) -> int:
 
-getNumberOfSentences(zinnen)
+    zin = text.count('!') + text.count('?') + text.count('.')
+    return zin
+
 
 # opdracht 3
+
 def getNumberOfWords(text: str) -> int:
-    return 0
+    return len(text.split())
+
+def avi_score(text: str) -> int:
+    zinnen = getNumberOfSentences(text)
+    woorden = getNumberOfCharacters(text)

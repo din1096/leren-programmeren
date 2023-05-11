@@ -4,3 +4,6 @@
 23 11 en 12 fruitman maken
 24 check je voortgang doen en beginnen aan lootjes
 31 flowchart en psuedocode maken
+
+
+11 mei opdrachten van module 5 afmaken

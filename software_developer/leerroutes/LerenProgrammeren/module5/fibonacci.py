@@ -1,7 +1,11 @@
-def reeks(i):
-    i -= 2
-    getallenreeks = [0,1]
-    for x in range(i):
-        getallenreeks.append(getallenreeks[-1] + getallenreeks[-2])
-        return reeks
-reeks(int(input('voer een getal in')))
+def fibonacci(x):
+    a = 0
+    b = 1
+    reeks = [a,b]
+    for x in range(x-2):
+        a,b = b, a+b
+        reeks.append(b)
+    guldensnee = b/a
+    return reeks,guldensnee
+aantal = int(input("voer een getal in:"))
+print(fibonacci(aantal))
